@@ -22,7 +22,7 @@ export default function Navbar() {
 
           {/* GitHub */}
           <a
-            href="https://github.com/yourname"
+            href="https://github.com/Calebdee"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400"
@@ -38,7 +38,7 @@ export default function Navbar() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourname"
+            href="https://linkedin.com/in/calebdeejohnson"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400"

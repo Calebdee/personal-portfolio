@@ -86,9 +86,103 @@ export default function Resume() {
 
                 <ul className="mt-4 space-y-3 text-sm text-gray-300 pl-5 list-disc marker:text-gray-500">
             
-                <li>Led the migration of a suite of computer vision models from older architectures to YOLOv8 segmentation models, improving inference speed, cost efficiency, and scalability for new markets.</li>
-                <li>Engineered an end-to-end ML pipeline in AWS, allowing for scalable on-demand and batch model execution.</li>
-                <li>Member of essential staff that navigated the company through a successful acquisition.</li>
+                <li className="hover:text-white transition">Led the migration of a suite of computer vision models from older architectures to YOLOv8 segmentation models, improving inference speed, cost efficiency, and scalability for new markets.</li>
+                <li className="hover:text-white transition">Engineered an end-to-end ML pipeline in AWS, allowing for scalable on-demand and batch model execution.</li>
+                <li className="hover:text-white transition">Member of essential staff that navigated the company through a successful acquisition.</li>
+              </ul>
+            </div>
+
+            {/* Experience Card */}
+            <div className="relative bg-gray-900 rounded-2xl p-6 border border-gray-800">
+              <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl"></div>
+
+              <div className="flex justify-between items-start">
+                <div className="flex gap-4 items-center">
+                  <img
+                    src="/logos/allstate.jpg"
+                    className="w-10 h-10 object-contain bg-white rounded p-1"
+                  />
+
+                  <div>
+                    <h3 className="text-lg font-semibold text-white">
+                      Data Scientist
+                    </h3>
+                    <p className="text-sm text-gray-400">
+                      Allstate • Chicago, IL (Remote)
+                    </p>
+                  </div>
+                </div>
+
+                <span className="text-xs text-gray-400">May 2022 – September 2024</span>
+              </div>
+
+                <ul className="mt-4 space-y-3 text-sm text-gray-300 pl-5 list-disc marker:text-gray-500">
+            
+                <li className="hover:text-white transition">Leveraged Apache Spark and large scale consumer telematics data to assess policyholder driving risk. Created a novel
+braking risk score that is expected to save $3 million annually in policy underwriting.</li>
+                <li className="hover:text-white transition">Developed a scalable computer vision CNN-LSTM model in PyTorch to detect risky driving behaviors from dashcam
+footage, processing terabytes of video data. Achieved over 95% F-score in detecting lane changes.</li>
+              </ul>
+            </div>
+
+            {/* Experience Card */}
+            <div className="relative bg-gray-900 rounded-2xl p-6 border border-gray-800">
+              <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl"></div>
+
+              <div className="flex justify-between items-start">
+                <div className="flex gap-4 items-center">
+                  <img
+                    src="/logos/kpmg.jpg"
+                    className="w-10 h-10 object-contain bg-white rounded p-1"
+                  />
+
+                  <div>
+                    <h3 className="text-lg font-semibold text-white">
+                      Data Science Engineering Intern
+                    </h3>
+                    <p className="text-sm text-gray-400">
+                      KPMG Spark • Salt Lake City, UT
+                    </p>
+                  </div>
+                </div>
+
+                <span className="text-xs text-gray-400">October 2021 – April 2022</span>
+              </div>
+
+                <ul className="mt-4 space-y-3 text-sm text-gray-300 pl-5 list-disc marker:text-gray-500">
+            
+                <li className="hover:text-white transition">Developed an end-to-end deep learning NLP model in PyTorch for classifying client inquiry emotions and urgency levels,
+achieving over 94% recall. Implemented and deployed the model on AWS and integrated the work.</li>
+              </ul>
+            </div>
+
+            {/* Experience Card */}
+                     <div className="relative bg-gray-900 rounded-2xl p-6 border border-gray-800">
+              <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl"></div>
+
+             <div className="flex justify-between items-start">
+                <div className="flex gap-4 items-center">
+                  <img
+                    src="/logos/datamachines.jpeg"
+                    className="w-10 h-10 object-contain bg-white rounded p-1"
+                  />
+
+                  <div>
+                    <h3 className="text-lg font-semibold text-white">
+                      Computer Vision Intern
+                    </h3>
+                    <p className="text-sm text-gray-400">
+                      DataMachines • Provo, UT
+                    </p>
+                  </div>
+                </div>
+
+                <span className="text-xs text-gray-400">October 2021 – April 2022</span>
+              </div>
+
+                <ul className="mt-4 space-y-3 text-sm text-gray-300 pl-5 list-disc marker:text-gray-500">
+            
+                <li className="hover:text-white transition"></li>
               </ul>
             </div>
 

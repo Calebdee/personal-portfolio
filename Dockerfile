@@ -1,8 +1,18 @@
+# Build stage (uses correct Node version)
+FROM node:22 AS build
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+RUN npm run build
+
+
+# Serve stage
 FROM nginx:alpine
 
-COPY dist /usr/share/nginx/html
-
-# Fix React Router (important)
+COPY --from=build /app/dist /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
