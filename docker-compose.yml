@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  portfolio:
+    build: .
+    container_name: portfolio-site
+    restart: unless-stopped
+    ports:
+      - "8090:80"
