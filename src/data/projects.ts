@@ -32,6 +32,15 @@ export const projects: Project[] = [
   github: "https://github.com/yourname/pi-dev-harness",
   tags: ["AI", "LLMs", "Agent Systems", "Prompt Engineering", "Tooling"],
 },
+  {
+    title: "Communicative Effects of Anonymity Online",
+    description:
+      "Constructed a Twitter anonymity dataset by quantifying user identifiability and analyzed its impact on communication patterns at scale. Explored behavioral differences across anonymity levels and successfully defended an Honors Thesis presented at the BYU Honors Conference.",
+    image: "/images/gru.png",
+    github: "https://github.com/Calebdee/CommunicativeEffectsOfAnonymityOnline",
+    pdf: "/docs/CommunicativeEffects.pdf",
+    tags: ["NLP", "Deep Learning", "Dataset Curation", "Thesis"],
+  },
 {
   title: "Personal SSO Hub & Service Dashboard",
   description:
@@ -47,5 +56,34 @@ export const projects: Project[] = [
   image: "/images/game-manager.png",
   github: "https://github.com/yourname/game-manager",
   tags: ["Full Stack", "Self-Hosting", "APIs", "Data Integration", "Distributed Systems"],
-}
+},
+
+  {
+    title: "Machine Learning Models from Scratch",
+    description:
+      "Implemented a library of core machine learning algorithms from scratch in Python, including decision trees, random forests, AdaBoost, SVMs, and perceptrons to build a deep understanding of model internals and training dynamics.",
+    image: "/images/perceptron.png",
+    github: "https://github.com/Calebdee/MachineLearningLibraryFromStratch",
+    tags: ["Machine Learning", "Algorithms"],
+  },
+
+  {
+    title: "MCTS Ticket to Ride Agent",
+    description:
+      "Developed a Monte Carlo Tree Search (MCTS) agent for the Ticket to Ride board game, modeling a 50-route European map and enabling strategic gameplay that consistently outperforms average human players.",
+    image: "/images/ticket.png",
+    github: "https://github.com/Calebdee/MCST-TicketToRide",
+    pdf: "/docs/TicketToRide.pdf",
+    tags: ["AI", "Reinforcement Learning", "Search"],
+  },
+
+  {
+    title: "Real-Time Opinion Corpus Retrieval",
+    description:
+      "Built a real-time information retrieval system using the Twitter API to dynamically construct datasets, classify tweets with an emotion model, and serve fast queries via an inverted index.",
+    image: "/images/time.png",
+    github: "https://github.com/Calebdee/IR-RealTimeTwitterQuery",
+    pdf: "/docs/twitter-retrieval.pdf",
+    tags: ["Information Retrieval", "NLP", "Data Pipelines"],
+  },
 ];
